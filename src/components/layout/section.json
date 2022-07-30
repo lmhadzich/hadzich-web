@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_seccion_sections",
+  "info": {
+    "displayName": "Section",
+    "icon": "bookmark",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.photo"
+    }
+  }
+}
